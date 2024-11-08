@@ -1,6 +1,3 @@
-# Part 1: Setting Up the Environment
-
-# Change directory to /content
 %cd /content
 
 # Clone the required repository
@@ -31,7 +28,6 @@
 !cp /content/models/spm_char_lang38_tc.model /content/seamless-m4t-v2-large-hf/assets/
 !cp /content/models/vocoder_v2.pt /content/seamless-m4t-v2-large-hf/assets/
 
-# Part 2: Writing the Testing Script
 
 import torch
 import pandas as pd
@@ -46,11 +42,9 @@ spm_model_path = "./assets/spm_char_lang38_tc.model"
 
 seamless_model = SeamlessModel(model_path, spm_model_path)
 
-# Dummy Data: Replace this with actual test data
 data = [
     {"source_text": "hello", "target_text": "bonjour", "src_lang": "en", "tgt_lang": "fr"},
     {"source_text": "world", "target_text": "monde", "src_lang": "en", "tgt_lang": "fr"},
-    # Add more data entries
 ]
 
 # Lists to keep track of accuracy per epoch
