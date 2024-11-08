@@ -4,7 +4,7 @@
 written by : @chirag chauhan
 
 
-I went through all the details of the given model, from seamless m4t v1 and v2 to seamless ,I am now capable of fine tuning these models , although only predefined inferences can be fine tuned we can not fine tune an entire engine, i can also deploy this model as a api endpoint and develop a software implementing its use case , although i tried to fine tune this model as well as run few epochs on dummy data, but due to lack of integrated gpu in my system it crashed, thankfully i use linux so i was able to restore my gnome, 
+I went through all the details of the given model, from seamless m4t v1 and v2 to seamless ,I am now capable of fine tuning these models , although only predefined inferences can be fine tuned we can not fine tune an entire engine, i can also deploy this model as a api endpoint and develop a software implementing its use case , although i tried to fine tune this model as well as run few epochs on dummy data, but due to lack of integrated gpu in my system it crashed, thankfully i use linux so i was able to restore my gnome,
 
 
 
@@ -15,7 +15,7 @@ git clone https://github.com/facebookresearch/seamless_communication.git
 ```
 
 
-and then we can create flask or djnago webapps ,and we can play around as much as we want with different checkpoints from different sections of these seamless models , like seamless expressive , seamless streaming and seamless m4t v - large 
+and then we can create flask or djnago webapps ,and we can play around as much as we want with different checkpoints from different sections of these seamless models , like seamless expressive , seamless streaming and seamless m4t v - large
 
 
 the only obstacle in my path is i need a better system to work upon, or a aws instance with good computational power and nice gpu will do just fine
@@ -42,6 +42,8 @@ here is the basic colab code for its deployment
 !python app.py
 ```
 
+
+[image.png](https://image.png)
 
 
 This is ofcourse provided by creators and hosted in gradio
